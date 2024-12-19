@@ -1,4 +1,4 @@
-# SETTING UP SAP GATEWAY DEMO ACCOUNT & SAP BTP
+# SETTING UP SAP GATEWAY DEMO ACCOUNT & SAP Integration Suite
 
 ## Create an Account on the SAP Gateway Demo System (ES5)
 
