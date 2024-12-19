@@ -2,7 +2,7 @@
 
 ## Create an Account on the SAP Gateway Demo System (ES5)
 
-### Aim of Hand-on 
+### Aim of Hands-on 
 To create a free account in the SAP Gateway Demo System (ES5).
 
 ### Business Scenario
@@ -71,7 +71,7 @@ Live SAP BTP account.
 
 ## Log in to My SAP Integration Suite
 
-### Aim of Hand-on 
+### Aim of Hands-on 
 This exercise aims to confirm the Integration Suites has API Management and Cloud Integration capabilities.
 
 ### Business Scenario
