@@ -1,4 +1,4 @@
-# SETTING UP SAP GATEWAY DEMO ACCOUNT & SAP Integration Suite
+# SETTING UP SAP GATEWAY DEMO SYSTEM ACCOUNT & SAP INTEGRATION SUITE
 
 ## Create an Account on the SAP Gateway Demo System (ES5)
 
@@ -6,8 +6,7 @@
 To create a free account in the SAP Gateway Demo System (ES5).
 
 ### Business Scenario
-The SAP Gateway Demo System is based on SAP NetWeaver AS ABAP 7.51. It is used, for example, to try OData Services. Various sample services are implemented for this purpose. These services are accessible via the internet. In this exercise, I used the GWSAMPLE_BASIC service which is based on the Enterprise Procurement Model (EPM).
-For more information, visit the documentation of GWSAMPLE_BASIC: Sample Service - Basic
+The SAP Gateway Demo System is used, for example, to try OData Services. Various sample services are implemented for this purpose.. It is based on SAP NetWeaver AS ABAP 7.51.  These services are accessible via the internet. In this exercise, the GWSAMPLE_BASIC service  is used which is based on the Enterprise Procurement Model (EPM).
 
 ### Task Flow
 In this exercise, I performed the following tasks:
@@ -73,7 +72,7 @@ Live SAP BTP account.
 ## Log in to My SAP Integration Suite
 
 ### Aim of Hand-on 
-To be able to log in with a User and Password to my subaccount tenant and in the Integration Suite.
+This exercise aims to confirm the Integration Suites has API Management and Cloud Integration capabilities.
 
 ### Business Scenario
 An integration developer should create new API proxies in API Management and these should then be used in an iFlow with the Cloud Integration Runtime.
@@ -85,7 +84,7 @@ In this exercise, I performed the following tasks:
 3.  Checked out the provisioned capabilities.
 
 ### Prerequisites
-I created a trial account and used it for the exercises. The creation of a subaccount is described in this tutorial: [Get a Free Account on SAP BTP Trial](https://developers.sap.com/tutorials/hcp-create-trial-account.html). 
+I created a trial account and used it for the exercises. 
 <br> **An Integration Developer user was set up with the following role collections.**
 - AuthGroup.API.ApplicationDeveloper
 - APIManagement.SelfService.Administrator
@@ -93,6 +92,7 @@ I created a trial account and used it for the exercises. The creation of a subac
 - APIPortal.Service.CatalogIntegration
 - PI_Integration_Developer
 - Subaccount Viewer
+<br>The creation of a subaccount is described in a tutorial in the Useful Links section
 
 ### Outcome After This Exercise
 I was able to log in with a User and Password to my subaccount tenant and in the Integration Suite. I also confirmed the Integration Suites had API Management and Cloud Integration capabilities.
@@ -137,6 +137,13 @@ I was able to log in with a User and Password to my subaccount tenant and in the
     ![alt text](images/apiManagement.png)
 
     5.  This means that API management and cloud integration were set up correctly and have the authorization to access them.
+
+
+### Useful Links
+- [Create a Free Account on SAP BTP Trial](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
+
+- [Documentation of GWSAMPLE_BASIC | Introducing OData](https://help.sap.com/docs/SAP_NETWEAVER_AS_ABAP_751_IP/68bf513362174d54b58cddec28794093/59283fc4528f486b83b1a58a4f1063c0.html?version=7.51.4)
+
 
 
 ### Credit 
